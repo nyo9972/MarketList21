@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        <  / MarketList21>
+    </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<header>
+
+
+
+
+
+    <div id="titleBar">
+        <h1>
+            <  / MarketList21>
+        </h1>
+    </div>
+</header>
+
+
+
+<body>
+    <div id="divisionModal">
+        <button id="buttonAdd" onclick="openModal()">Add +</button> <button id="buttonRemove" onclick="toggle()">Remover</button>
+    </div>
+
+    <div id="divisionList">
+        <br>
+
+
+
+
+        <tbody>
+            <table>
+                <tr>
+                    <td class="description">check</td>
+                    <td class="description">Item</td>
+                    <td class="description">Un</td>
+                </tr>
+
+                <tr class="input-group">
+                    <td><button id="delButton" style="visibility:hidden ;">-</button>
+                        <input type="checkbox" id="0" class="checkbox" />
+                        <label for="0">    </label></td>
+                    <td>Banana</td>
+                    <td>5</td>
+                    <div id="line"></div>
+                </tr>
+
+                <tr class="input-group">
+                    <td><button id="delButton" style="visibility:hidden ;">-</button>
+                        <input type="checkbox" id="0" class="checkbox" />
+                        <label for="0">    </label></td>
+                    <td>Banana</td>
+                    <td>5</td>
+                    <div id="line"></div>
+                </tr>
+
+                <tr class="input-group">
+                    <td><button id="delButton" style="visibility:hidden ;">-</button>
+                        <input type="checkbox" id="0" class="checkbox" />
+                        <label for="0">    </label></td>
+                    <td>Banana</td>
+                    <td>5</td>
+                    <div id="line"></div>
+                </tr>
+
+
+
+            </table>
+        </tbody>
+    </div>
+</body>
+
+<div id="modalAdd" class="modalContainer" style="visibility:hidden;">
+    <span id="modalContent">
+
+        <div id="modal">
+
+            <label id="itensModal" for="addItem">
+                Item: <input id="formItem" class="itens1" for="itens1" type="text"> <br>
+                Valor: <input id="formValue" class="itens1" for="itens1" type="text"> <br>
+                <button id="buttonSave" onclick="saveAll()" >Salvar</button>
+                <button id="buttonCancel" onclick="closeModal()">Cancelar</button>
+            </label>
+
+        </div>
+
+
+    </span>
+</div>
+
+<footer>
+    <p>Math Lima Dev©</p>
+</footer>
+
+<script src="./scripts.js"></script>
+
+</html>
